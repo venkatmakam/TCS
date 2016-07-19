@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><BakeConfiguration>
+<stringAttribute key="VECU_NAME" value="VECU_FinalTEST"/>
+<stringAttribute key="ecu_instance" value="/VirtualSystem/EcuInstance_0"/>
+<stringAttribute key="ecu_arxml_path" value=".\arxml/acceltest/VirtualSystem.arxml"/>
+<stringAttribute key="target" value="WINDOWS"/>
+<stringAttribute key="host" value="127.0.0.1"/>
+<stringAttribute key="xcp_port" value="18041"/>
+<stringAttribute key="rtaos_depends_on_rte" value="true"/>
+<stringAttribute key="freeze_rte" value="false"/>
+<stringAttribute key="freeze_rtaos" value="false"/>
+<stringAttribute key="freeze_mcal" value="false"/>
+<stringAttribute key="freeze_build" value="false"/>
+<stringAttribute key="incremental_build" value="true"/>
+<stringAttribute key="build_config" value="SVNPTEFSX0VWRXx8SVNPTEFSX0VWRV9SVU5USU1F"/>
+<Build>
+<listAttribute key="include_root" value="./src">
+<listEntry value="*.h"/>
+<listEntry value="*.c"/>
+<listEntry value="*.o"/>
+<listEntry value="*.cpp"/>
+<listEntry value="*.hpp"/>
+</listAttribute>
+</Build>
+<MCAL/>
+<RTA-OS>
+<listAttribute key="include_root">
+<listEntry value=".\arxml/EVE/RTA-OS/osVECU.arxml"/>
+</listAttribute>
+</RTA-OS>
+<RTE>
+<option value="-tsl=128 --samples=swc"/>
+<listAttribute key="include_root">
+<listEntry value=".\arxml/acceltest/RTE_CFG.arxml"/>
+<listEntry value=".\arxml/acceltest/OS_CFG.arxml"/>
+<listEntry value=".\arxml/acceltest/Composition.arxml"/>
+<listEntry value=".\arxml/acceltest/osNeeds.arxml"/>
+<listEntry value=".\arxml/acceltest/EcuInstance_0_FlatMap.arxml"/>
+<listEntry value=".\arxml/acceltest/VirtaulSys_EcuExtr.arxml"/>
+<listEntry value=".\arxml/acceltest/VirtualSystem.arxml"/>
+<listEntry value=".\arxml/acceltest/ECU.arxml"/>
+<listEntry value=".\arxml/acceltest/VirtualSys_EcuExtr.arxml"/>
+<listEntry value=".\arxml/acceltest/EcuInstance_0_FlatView_SWCD.arxml"/>
+<listEntry value=".\arxml/acceltest/Types.arxml"/>
+<listEntry value=".\arxml/acceltest/Component.arxml"/>
+<listEntry value=".\arxml/acceltest/ISOLAR_PlatformTypes.arxml"/>
+<listEntry value=".\arxml/acceltest/Interface.arxml"/>
+</listAttribute>
+</RTE>
+</BakeConfiguration>

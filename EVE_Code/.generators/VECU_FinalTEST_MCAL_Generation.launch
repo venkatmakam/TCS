@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.etas.vaptools.mcal.generator.core.LaunchConfigurationType">
+<stringAttribute key="VECU_NAME" value="VECU_FinalTEST"/>
+<stringAttribute key="output_loc" value="${workspace_loc:/VECU_FinalTEST/src/gen/MinGW/MCAL}"/>
+</launchConfiguration>

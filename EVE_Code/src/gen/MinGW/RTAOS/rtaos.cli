@@ -1,0 +1,13 @@
+--target:[MinGW]VRTA
+-o[*.h]C:/ETASData/ISOLAR-EVE3.0/workspace/VECU_FinalTEST/src/gen/MinGW/RTAOS
+-o[*.c]C:/ETASData/ISOLAR-EVE3.0/workspace/VECU_FinalTEST/src/gen/MinGW/RTAOS
+-o[*.hpp]C:/ETASData/ISOLAR-EVE3.0/workspace/VECU_FinalTEST/src/gen/MinGW/RTAOS
+-o[*.cpp]C:/ETASData/ISOLAR-EVE3.0/workspace/VECU_FinalTEST/src/gen/MinGW/RTAOS
+-o[*.rta]C:/ETASData/ISOLAR-EVE3.0/workspace/VECU_FinalTEST/src/gen/MinGW/RTAOS
+-oC:/ETASData/ISOLAR-EVE3.0/workspace/VECU_FinalTEST/VECUs/MinGW/Obj
+-I.
+-IC:/ETASData/ISOLAR-EVE3.0/workspace/VECU_FinalTEST/src/EVEsrc
+-IC:/ETASData/ISOLAR-EVE3.0/workspace/VECU_FinalTEST/src/gen/MinGW/RTAOS
+--samples:[Includes]overwrite
+--target_option:Run-time license name=ISOLAR_EVE||ISOLAR_EVE_RUNTIME
+C:/ETASData/ISOLAR-EVE3.0/workspace/VECU_FinalTEST/src/gen/MinGW/RTAOS/VECU_FinalTEST.rtaos

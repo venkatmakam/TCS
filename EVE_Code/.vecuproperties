@@ -1,0 +1,6 @@
+#Thu Apr 21 15:40:07 KST 2016
+version=3.0
+eveSrc=src/EVEsrc
+eveParamTemplates=arxml/EVE/ECUParameters
+eveOsTemplates=arxml/EVE/RTA-OS
+configuration=configuration

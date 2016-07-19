@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.etas.vaptools.rtarte.generator.core.LaunchConfigurationType">
+<stringAttribute key="VECU_NAME" value="VECU_FinalTEST"/>
+<stringAttribute key="additional_command" value="-tsl=128 --samples=swc"/>
+<listAttribute key="arxml_files">
+<listEntry value="${workspace_loc:/VECU_FinalTEST/arxml/acceltest/RTE_CFG.arxml}"/>
+<listEntry value="${workspace_loc:/VECU_FinalTEST/arxml/acceltest/OS_CFG.arxml}"/>
+<listEntry value="${workspace_loc:/VECU_FinalTEST/arxml/acceltest/Composition.arxml}"/>
+<listEntry value="${workspace_loc:/VECU_FinalTEST/arxml/acceltest/osNeeds.arxml}"/>
+<listEntry value="${workspace_loc:/VECU_FinalTEST/arxml/acceltest/EcuInstance_0_FlatMap.arxml}"/>
+<listEntry value="${workspace_loc:/VECU_FinalTEST/arxml/acceltest/VirtaulSys_EcuExtr.arxml}"/>
+<listEntry value="${workspace_loc:/VECU_FinalTEST/arxml/acceltest/VirtualSystem.arxml}"/>
+<listEntry value="${workspace_loc:/VECU_FinalTEST/arxml/acceltest/ECU.arxml}"/>
+<listEntry value="${workspace_loc:/VECU_FinalTEST/arxml/acceltest/VirtualSys_EcuExtr.arxml}"/>
+<listEntry value="${workspace_loc:/VECU_FinalTEST/arxml/acceltest/EcuInstance_0_FlatView_SWCD.arxml}"/>
+<listEntry value="${workspace_loc:/VECU_FinalTEST/arxml/acceltest/Types.arxml}"/>
+<listEntry value="${workspace_loc:/VECU_FinalTEST/arxml/acceltest/Component.arxml}"/>
+<listEntry value="${workspace_loc:/VECU_FinalTEST/arxml/acceltest/ISOLAR_PlatformTypes.arxml}"/>
+<listEntry value="${workspace_loc:/VECU_FinalTEST/arxml/acceltest/Interface.arxml}"/>
+</listAttribute>
+<stringAttribute key="ecu_arxml_path" value="platform:/resource/VECU_FinalTEST/arxml/acceltest/VirtualSystem.arxml"/>
+<stringAttribute key="ecu_instances" value="/VirtualSystem/EcuInstance_0"/>
+<stringAttribute key="output_loc" value="${workspace_loc:/VECU_FinalTEST/src/gen/MinGW/RTE}"/>
+<stringAttribute key="tool_loc" value="C:\Program Files\ETAS\ISOLAR-EVE3.0\plugins\com.etas.evetools.toolsfolder_1.4.5\Tools\bin\RTEGen.exe"/>
+</launchConfiguration>

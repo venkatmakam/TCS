@@ -1,0 +1,5 @@
+-m32 -g "-IC:/ETASData/ISOLAR-EVE3.0/workspace/VECU_FinalTEST/VECUs/MinGW/Obj" -c
+"-IC:/ETASData/ISOLAR-EVE3.0/workspace/VECU_FinalTEST/src/EVEsrc"
+"-IC:/ETASData/ISOLAR-EVE3.0/workspace/VECU_FinalTEST/src/gen/MinGW/RTAOS"
+"-IC:/ETASData/ISOLAR-EVE3.0/workspace/VECU_FinalTEST/src/gen/MinGW/RTE"
+"C:/ETASData/ISOLAR-EVE3.0/workspace/VECU_FinalTEST/src/gen/MinGW/RTE/Rte_Algo.c"

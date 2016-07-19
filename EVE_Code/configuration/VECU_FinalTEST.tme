@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ASCII"?>
+<vecumodel:VecuProjectNode xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:vecumodel="http://www.etas.com/vaptools/vap/model/vecumodel" name="VECU_FinalTEST" arxml="platform:/resource/VECU_FinalTEST/arxml/acceltest/VirtualSystem.arxml" ecuRefPath="/VirtualSystem/EcuInstance_0?type=EcuInstance" timeFactor="1" udpPortWin="18041">
+  <vecuTargetMapping vecuProjNodeRef="/">
+    <target ipAddress="localhost" targetType="WIN" serialNumber="win" rtpcName="win"/>
+  </vecuTargetMapping>
+</vecumodel:VecuProjectNode>
